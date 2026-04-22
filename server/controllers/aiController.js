@@ -315,7 +315,7 @@ Input: "SDE role"
 Return ONLY JSON.
 
 ====================================================
-THANKS!
+THANKS!Have a nice day!
 `;
 
     const fullPrompt = `${systemPrompt}\n\nUser REQUEST: "${prompt.trim()}"\n\nGenerate STRONG cold email even if prompt is short. Make smart assumptions. Return ONLY valid JSON:\n{"subject": "...", "emailBody": "...", "linkedInDM": "...", "followUpEmail": "..."}`;
